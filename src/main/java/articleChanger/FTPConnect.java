@@ -19,7 +19,7 @@ public class FTPConnect extends FTPClient{
 
         try {
             ftpClient.connect("ox.netinfocompany.bg");
-            boolean login = ftpClient.login("banners", "fT&3-w");
+            boolean login = ftpClient.login("banners", "****");
             if (login) {
 
                 System.out.println("Connection established...");
